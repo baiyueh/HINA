@@ -154,7 +154,7 @@ We calculate the diversity of interactions for each student relative to the obje
 .. code-block:: python
 
 	diversities = diversity(B, attr='attr')
-	print("Diversities for Tbipartite network:\n", diversities[0])
+	print("Diversities for Tripartite network:\n", diversities[0])
 
 Example Output
 --------------
@@ -167,7 +167,7 @@ Example Output
 	'quantity_by_category': defaultdict(<class 'float'>, {('Alice', 'cognitive'): 1.0, ('Alice', 'metacognitive'): 1.0, ('Bob', 'cognitive'): 1.0, ('Charlie', 'metacognitive'): 1.0}), 
 	'normalized_quantity_by_group': {'Alice': 1.0, 'Bob': 0.5, 'Charlie': 0.5}}
 
-	Diversities for Tbipartite network:
+	Diversities for Tripartite network:
 	{'Alice': 1.0, 'Bob': -0.0, 'Charlie': -0.0}
 
 Paper Source
