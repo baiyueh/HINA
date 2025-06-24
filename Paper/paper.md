@@ -75,9 +75,9 @@ behavioral and cognitive constructs during learning processes [@feng2024heteroge
 different modalities [@feng2024heterogenous], or design learning analytics dashboards for the visualization of heterogenous engagement to support teaching and learning practices [@feng2025analyzing].  
  
 
-**HINA** tailors its methods—which include brand-new algorithms for pruning, clustering, and visualization in the HIN setting—specifically for 
+**HINA** tailors its methods—which include brand-new algorithms for pruning, clustering, and visualization—specifically for 
 learning analytics researchers and teachers working with HINs derived from learning process data. This makes HINA a unique contribution to the software space that 
-provides a more specialized experience than existing packages for general network analysis [@hagberg2008exploring; @csardi2006igraph], network inference [@peixoto2014graphtool; @kirkley2024paninipy], or hypergraph analysis [citations].
+provides a more specialized experience than existing packages for general network analysis [@hagberg2008exploring; @csardi2006igraph], hypergraph analysis [@landry2023; @lotito2023hypergraphx; @praggastis2024], or network inference [@peixoto2014graphtool; @kirkley2024paninipy].
 
 
 # Current Modules 
