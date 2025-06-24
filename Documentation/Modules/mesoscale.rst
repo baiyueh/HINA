@@ -99,7 +99,7 @@ This example demonstrates how to use `hina_communities` for clustering nodes in 
 
     import pandas as pd
     from hina.construction import get_bipartite
-    from hina.dyad import prune_edges
+    from hina.mesoscale import hina_communities
 
 **Step 2: Define the dataset**
 
