@@ -107,7 +107,7 @@ This example demonstrates how to visualize a heterogeneous interaction network a
     from hina.construction import get_bipartite
     from hina.visualization import plot_hina, plot_bipartite_clusters
 
-**Step 2: Load the example dataset**
+**Step 2: Load the example dataset. (The required spreadsheet file example_dataset.xlsx is in the Example_dataset directory.)**
 
 .. code-block:: python
 
