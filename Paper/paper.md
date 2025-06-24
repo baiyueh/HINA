@@ -77,7 +77,7 @@ different modalities [@feng2024heterogenous], or design learning analytics dashb
 
 **HINA** tailors its methods—which include brand-new algorithms for pruning, clustering, and visualization in the HIN setting—specifically for 
 learning analytics researchers and teachers working with HINs derived from learning process data. This makes HINA a unique contribution to the software space that 
-provides a more specialized experience than existing packages for general network analysis [@hagberg2008exploring; @csardi2006igraph] or network inference [@peixoto2014graphtool; @kirkley2024paninipy].  
+provides a more specialized experience than existing packages for general network analysis [@hagberg2008exploring; @csardi2006igraph], network inference [@peixoto2014graphtool; @kirkley2024paninipy], or hypergraph analysis [citations].
 
 
 # Current Modules 
