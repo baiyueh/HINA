@@ -3,7 +3,7 @@ hina.dashboard
 
 Overview
 --------
-The [HINA Dashboard APP](https://hina-network.com/login) provides the main dashboard for HINA, a tool designed for heterogeneous interaction network analysis in learning analytics. Its purpose is to enable users to upload CSV files, configure network parameters, construct and visualize networks, view analytical results, and export these results—all through an interactive web interface.
+The `HINA Dashboard APP <https://hina-network.com/login>`_ provides the main dashboard for HINA, a tool designed for heterogeneous interaction network analysis in learning analytics. Its purpose is to enable users to upload CSV files, configure network parameters, construct and visualize networks, view analytical results, and export these results—all through an interactive web interface.
 
 It serves as a comprehensive dashboard that integrates file upload, parameter configuration, network construction, interactive visualization, analytical result display, and data export functionalities. This streamlined workflow allows users to efficiently analyze heterogeneous interaction networks in learning analytics. 
 
