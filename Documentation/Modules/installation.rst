@@ -52,7 +52,10 @@ To run the tests manually, users need to clone the *HINA* GitHub repository.
 
        pip install -r requirements.txt
        pip install hina
+       pip install httpx 
        pip install pytest
+       hash -r  #Refresh shell's executable cache (needed if pytest was previously installed)
+       
 
 3. **Run the Tests**: Use `pytest` to execute all tests cases in the `HINA` folder.
 
