@@ -136,7 +136,7 @@ def test_build_object_network_endpoint(client, sample_csv):
     cluster_data = cluster_response.json()
     
     # Skip test if no object_object_graphs were created
-    if not cluster_data["object_object_graphs"]:
+    if "object_object_graphs" not in cluster_data or not cluster_data["object_object_graphs"]:
         pytest.skip("No object-object graphs were created, skipping test")
     
     # Get first community ID

@@ -237,7 +237,7 @@ def build_hina_network(df: pd.DataFrame, group_col: str, group: str, student_col
     """
     # Filter by group 
     if group != 'All' and group_col in df.columns:
-        df = df[df[group_col] == group]
+        df = df[df[group_col].astype(str) == str(group)]
 
     nx_G, G_edges_ordered = construct_network(df, group_col, student_col, object1_col, object2_col, attr_col, pruning)
     # print("G_edges_ordered_hina", nx_G.edges)
